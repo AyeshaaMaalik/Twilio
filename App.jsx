@@ -1,11 +1,13 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View, SafeAreaView } from 'react-native'
 import React from 'react'
+import VideoCall from './Scr/VideoCall'
 
 const App = () => {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+
+    <SafeAreaView style={{ flex: 1 }}>
+      <VideoCall />
+    </SafeAreaView>
   )
 }
 
